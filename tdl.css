@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+
+
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+#boxMain {
+    margin:10% 10% 10% 10%;
+    width: 80%;
+    height: 150%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    background-image: url("light-green-wallpaper-7.jpg");
+    background-size: cover;
+    background-color: #6b9080;
+}
+.heading{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Lucida Handwriting;
+}
+.box {
+    margin:10%;
+    width: 90%;
+    height:130%;
+    background-color: #e0f5ca;
+    border-radius: 5px;
+    padding: 15px;
+    border: 0.5rem dashed #034949;
+}
+
+
+#item {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: Comic Sans MS;
+    color: #0b2223;
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+    box-shadow: 0px 0px 0px rgb(14, 0, 14);
+    display: block;
+}
+
+#tdl {
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+#tdl li {
+    position: relative;
+    background-color: rgb(178, 220, 162);
+    font-family: Comic Sans MS;
+    color: #06291b;
+    padding: 10px;
+    border-radius: 0.2rem;
+    padding-right: 30px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+#tdl li i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+    background-color: rgb(21, 44, 40);
+}
